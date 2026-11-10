@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <h2>Save Button</h2>
+    <hr>
+</head>
+<body>
+    <button type="button" id="saveBtn">Console</button>
+    <br>
+    <button type="button "id="saveBtn2">Alert</button>
+
+    <script>
+        const saveBtn2 = document.querySelector("#saveBtn");
+        saveBtn2.addEventListener("click", function(event){
+            console.log("Saved!");
+        });
+        const saveBtn = document.querySelector("#saveBtn2");
+        saveBtn.addEventListener("click", function(event){
+            alert("Saved!");
+        });
+    </script>
+</body>
+</html>
